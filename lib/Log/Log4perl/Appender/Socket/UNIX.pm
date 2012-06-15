@@ -1,5 +1,5 @@
 ##################################################
-package Log::Log4perl::Appender::UnixDomainSocket;
+package Log::Log4perl::Appender::Socket::UNIX;
 ##################################################
 
 our @ISA = qw(Log::Log4perl::Appender);
@@ -10,7 +10,7 @@ use strict;
 use IO::Handle;
 use Socket;
 
-our $VERSION = "1.00";
+our $VERSION = "1.01";
 
 ##################################################
 sub new {
@@ -60,9 +60,9 @@ Log::Log4perl::Appender::UnixDomainSocket - Log to a Unix Domain Socket
 
 =head1 SYNOPSIS
 
-	use Log::Log4perl::Appender::UnixDomainSocket;
+	use Log::Log4perl::Appender::Socket::UNIX;
 
-	my $appender = Log::Log4perl::Appender::UnixDomainSocket->new(
+	my $appender = Log::Log4perl::Appender::Socket::UNIX->new(
 		Socket => '/var/tmp/myprogram.sock'
 	);
 
