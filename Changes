@@ -1,0 +1,12 @@
+Revision history for Perl extension Log::Log4perl::Appender::Socket::UNIX
+
+SourceCode and diffs can be found on: 
+  https://github.com/jstebens/Log-Log4perl-Appender-Socket-UNIX
+
+Legend: 
+  F: Fixed 
+  E: Enhanced
+  N: New
+
+* 1.00
+  - Initial release
