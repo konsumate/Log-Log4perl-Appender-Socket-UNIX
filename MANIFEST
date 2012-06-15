@@ -1,7 +1,7 @@
 Build.PL
 Changes
 lib/Log/Log4perl/Appender/Socket/UNIX.pm
-examples/client.pl
+examples/listener.pl
 LICENSE
 Makefile.PL
 MANIFEST

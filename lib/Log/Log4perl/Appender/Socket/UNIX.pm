@@ -1,14 +1,16 @@
 ##################################################
 package Log::Log4perl::Appender::UnixDomainSocket;
 ##################################################
+
 our @ISA = qw(Log::Log4perl::Appender);
-our $version = "1.00";
+
 use warnings;
 use strict;
 
 use IO::Handle;
 use Socket;
 
+our $VERSION = "1.00";
 
 ##################################################
 sub new {
