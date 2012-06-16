@@ -56,7 +56,7 @@ __END__
 
 =head1 NAME
 
-Log::Log4perl::Appender::UnixDomainSocket - Log to a Unix Domain Socket
+Log::Log4perl::Appender::Socket::UNIX- Log to a Unix Domain Socket
 
 =head1 SYNOPSIS
 
