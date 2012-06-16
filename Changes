@@ -8,5 +8,11 @@ Legend:
   E: Enhanced
   N: New
 
+* 1.02
+  - Removed the last UnixDomainSocket reference, hopefully.
+
+* 1.01
+  - Cleaning the namespace, was UnixDomainSocket, is Socket::UNIX now.
+
 * 1.00
   - Initial release
