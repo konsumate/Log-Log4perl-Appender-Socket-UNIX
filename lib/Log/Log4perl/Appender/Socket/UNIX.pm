@@ -10,7 +10,7 @@ use strict;
 use IO::Handle;
 use Socket;
 
-our $VERSION = "1.02";
+our $VERSION = "1.03";
 
 ##################################################
 sub new {
