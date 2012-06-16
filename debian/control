@@ -1,0 +1,21 @@
+Source: liblog-log4perl-appender-socket-unix-perl
+Section: perl
+Priority: optional
+Build-Depends: debhelper (>= 7)
+Build-Depends-Indep: perl
+Maintainer: nemesys <debian.helba@recursor.net>
+Standards-Version: 3.9.1
+Homepage: http://search.cpan.org/dist/Log-Log4perl-Appender-Socket-UNIX/
+
+Package: liblog-log4perl-appender-socket-unix-perl
+Architecture: all
+Depends: ${misc:Depends}, ${perl:Depends}
+Description: Log::Log4perl::Appender::Socket::UNIX- Log to a Unix Domain Socket
+ This is a simple appender for writing to a unix domain socket. It relies on
+ Socket and only logs to an existing socket - ie. very useful to always log
+ debug streams to the socket. Since the socket is non-blocking, it doesnt
+ matter wheter the socket exists or not.
+ .
+ The appender just _tries_ to stream to a socket. The socket in questions is
+ beeing created by the client who wants to listen, once created the messages
+ are coming thru.

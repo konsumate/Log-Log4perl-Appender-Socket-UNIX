@@ -1,0 +1,5 @@
+liblog-log4perl-appender-socket-unix-perl (1.03-1) unstable; urgency=low
+
+  * Initial Release.
+
+ -- nemesys <nemesys@odm.orwellmon.com>  Sat, 16 Jun 2012 13:28:50 +0200
