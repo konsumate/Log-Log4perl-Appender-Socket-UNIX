@@ -1,4 +1,11 @@
-liblog-log4perl-appender-socket-unix-perl (1.03~rs60+1) unstable; urgency=low
+liblog-log4perl-appender-socket-unix-perl (1.04~rs60+1) squeeze-rs; urgency=low
+
+  * Fixed tests and description.
+  * Changelog
+
+ -- Jean Stebens <nemesys@odm.orwellmon.com>  Mon, 18 Jun 2012 19:35:51 +0200
+
+liblog-log4perl-appender-socket-unix-perl (1.03~rs60+1) squeeze-rs; urgency=low
 
   * Initial Release.
 
