@@ -1,4 +1,4 @@
-liblog-log4perl-appender-socket-unix-perl (1.03-1) unstable; urgency=low
+liblog-log4perl-appender-socket-unix-perl (1.03~rs60+1) unstable; urgency=low
 
   * Initial Release.
 
