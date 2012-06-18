@@ -3,7 +3,7 @@ use strict; use warnings;
 
 my $numtests;
 BEGIN {
-	$numtests = 2;
+	$numtests = 1;
 
 	eval "use Test::NoWarnings";
 	if ( ! $@ ) {

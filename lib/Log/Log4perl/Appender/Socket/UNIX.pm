@@ -10,7 +10,7 @@ use strict;
 use IO::Handle;
 use Socket;
 
-our $VERSION = "1.03";
+our $VERSION = "1.04";
 
 ##################################################
 sub new {
@@ -72,10 +72,9 @@ Log::Log4perl::Appender::Socket::UNIX- Log to a Unix Domain Socket
 
 This is a simple appender for writing to a unix domain socket. It relies on
 L<Socket> and only logs to an existing socket - ie. very useful to always log
-debug streams to the socket. Since the socket is non-blocking, it doesnt matter
-wheter the socket exists or not.
+debug streams to the socket. 
 
-The appender just _tries_ to stream to a socket. The socket in questions is beeing
+The appender tries to stream to a socket. The socket in questions is beeing
 created by the client who wants to listen, once created the messages are coming thru.
 
 =head1 EXAMPLE
@@ -89,7 +88,7 @@ Write a client quickly using the Socket module:
 	unlink($s) or die("Failed to unlin socket - check permissions.\n");
 
 	# be sure to set a correct umask so that the appender is allowed to stream to:
-	umask(000);
+	# umask(000);
 
 	socket(my $socket, PF_UNIX, SOCK_DGRAM, 0);
 	bind($socket, sockaddr_un($s));
